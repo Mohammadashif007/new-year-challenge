@@ -3,9 +3,10 @@
     padding: 0;
     font-family: 'work Sans', sans-serif;
 }
+
 /* Header Section */
 .banner {
-    background-image: url(images/banner/banner2.png) ;
+    background-image: url(images/banner/banner2.png);
     display: flex;
     justify-content: flex-end;
     padding: 200px 230px;
@@ -33,4 +34,42 @@
     background-color: #F15B22;
     border: 0;
     padding: 20px 20px;
+}
+
+/* Failure section */
+
+.failure-section {
+    display: flex;
+    padding: 140px 170px;
+    align-items: center;
+    gap: 90px;
+}
+
+/* .failure-img {
+    width: 100%;
+} */
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    
+}
+.failure-description {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: #444343;
+}
+.failure-list {
+    margin-bottom: 20px;
+    /* margin-top: 30px; */
+    color: #444343; 
+}
+.checkmark {
+    display: flex;
+    gap: 10px;
+}
+.check-img {
+    width: 24px;
+    height: 26.31px;
 }
